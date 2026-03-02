@@ -1,0 +1,66 @@
+.Container{
+    width: 400px;
+    margin: 60px auto;
+    margin-block-start: 20px;
+    margin-top: 170px;
+    background: whitesmoke;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 12px; 
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: 0.2s ease;
+    margin-top: 15px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 10px 12px; 
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: 0.2s ease;
+    margin-top: 15px;
+}
+
+label{
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+h2 {
+    margin-bottom: 24px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.Login_btn {
+    width: 425px;
+    padding: 10px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.Login_btn:hover {
+    background-color: #574fd6;
+    transform: translateY(-2px);
+}
+
+.Login_btn:active {
+    transform: scale(0.98);
+}

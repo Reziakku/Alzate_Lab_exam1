@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+.Container2{
+    max-width: 1000px;
+    margin: 40px auto;
+    margin-block-start: 20px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.students_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.students_table th {
+    background-color: #f4f5f7;
+    text-align: left;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.students_table td {
+    padding: 12px 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.students_table tr:hover {
+    background-color: #f9f9ff;
+}
+

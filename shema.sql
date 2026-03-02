@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS student_db;
+USE student_db;
+
+CREATE TABLE IF NOT EXISTS students (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    student_id VARCHAR(11) UNIQUE NOT NULL,
+    full_name VARCHAR(150) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    course VARCHAR(150) NOT NULL);
+    is_active TINYINT(1) DEFAULT 1;

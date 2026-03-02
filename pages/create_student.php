@@ -24,6 +24,7 @@ if ($full_name == "" || $email == "") {
 <html>
 <head>
     <meta charset="utf-8"><title>Create Student Record</title>
+    <link rel="stylesheet" href="../Styles/create&edit.css">
 </head>
 <body>
 
@@ -52,8 +53,8 @@ if ($full_name == "" || $email == "") {
     <input type="text" name="course" placeholder="Please enter your Course"><br><br>
     </div>
 
-    <button type="submit" name="save">Add Student</button>
-    <button type="submit" name="Cancel">Cancel</button>
+    <button type="submit" name="save" class="add_student_btn">Add Student</button>
+    <a href="../student_records.php" class="cancel_btn">Cancel</a>
 </form>
 </div>
 </body>
